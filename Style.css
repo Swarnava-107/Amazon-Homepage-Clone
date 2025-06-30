@@ -18,7 +18,7 @@ header .navbar{
 }
 .navbar{
     background-color: #131b25;
-    height: 59.99px;
+    height: 60px;
     color: white;
     display: flex;
     align-items: center;
@@ -30,8 +30,8 @@ header .navbar{
 }
 /** box 1 **/
 .nav-logo{
-    height: 49.99px;
-    width : 129.71px;
+    height: 50px;
+    width : 130px;
 }
 .logo{
     height: inherit;
@@ -42,7 +42,7 @@ header .navbar{
 .border{
     border: 1.5px solid transparent;
     padding: 2px;
-    height: 39.99px;
+    height: 40px;
 }
 .border:hover{
     border : 1.5px solid white;
@@ -69,13 +69,13 @@ header .navbar{
     display: flex;
     justify-content: space-evenly;
     background-color: #f7ac4b;
-    width: 736.06px;
-    height:39.99px;
+    width: 736px;
+    height:40px;
     border-radius: 4px;
 }
 .search-select{
     background-color:#f3f3f3;
-    width:51.52px;
+    width:51.5px;
     text-align: center;
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
@@ -121,7 +121,7 @@ input[type=text-1]:focus{
 /** box 4 **/
 .nav-language-button img{
     height:16.2px;
-    width: 21.59px;
+    width: 21.6px;
     margin-top: 14px;
 }
 .nav-language-button{
@@ -170,7 +170,7 @@ span{
     border: 1.5px solid transparent;
     padding: 2px;
     padding-top: 6px;
-    height: 35.99px;
+    height: 36px;
 }
 .border2:hover{
     border : 1.5px solid white;
@@ -180,7 +180,7 @@ span{
 
 /**Panel**/
 .panel{
-    height: 38.99px;
+    height: 39px;
     font-size: 0.85rem;
     background-color: #222b37;
     display: flex;
@@ -189,7 +189,7 @@ span{
 }
 .panel-all{
     color: white;
-    width:58.37px;
+    width:58.4px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -211,7 +211,7 @@ span{
 }
 .border-panel{
     border: 1.5px solid transparent;
-    height: 34.99px;
+    height: 35px;
 }
 .border-panel:hover{
     border : 1.5px solid white;
@@ -220,7 +220,7 @@ span{
 
 /** hero-section **/
 .hero-section{
-    background-image: url(boxinn2.jpg);
+    background-image: url(img/background_img.jpg);
     background-size: cover;
     height:250px;
     display: flex;
@@ -229,7 +229,7 @@ span{
 
 /** shop-section **/
 .shop-section{
-    background-color: rgb(210, 175, 241);
+    background-color: rgb(208, 228, 239);
 }
 .shop-section h6,h5{
     font-weight: Normal;
@@ -281,12 +281,12 @@ h2{
 .sign-box{
     height : 385px;
     width:23.2%;
-    background-color: rgb(210, 175, 241);
+    background-color: rgb(208, 228, 239);
     padding-bottom: 34px; 
     flex-wrap: wrap;
 }
 .sign-in-box {
-    width: 344.36px;
+    width: 344.4px;
     height: 115px;
     padding-top: 20px;
     padding-bottom: 15px;
@@ -377,8 +377,8 @@ h2{
     width: 100%;
 }
 .box-img2{
-    height: 276.43px;
-    width:324.62px;
+    height: 276.4px;
+    width:324.6px;
     margin-left: 10px;
     background-repeat: no-repeat;
 }
@@ -510,26 +510,42 @@ h2{
 
 /** End Box **/
 .end-line{
-    height: 128.5px;
+    height: 145px;
     background-color: white;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .end-line hr {
     border: none;
     border-top: 1px solid rgb(228, 226, 226);
 }
 
-.end-line h3 {
-    color: #5a5959;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    font-weight: normal;
+.end-line h2 , h6{
+    display: flex;
+    justify-content: center;
 }
-.end-line h5{
-    color: #5a5959;
-    padding-bottom: 45px;
-    padding-left: 30px;
+.end-line h2{
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+.end-line h6{
+    margin-bottom: 10px;
+}
+.end-line a{
+    color: rgb(62, 106, 169);
+}
+.sign-in {
+    width: 16%;
+    height: 30px;
+    margin: 12px 0 8px 0;
+    margin-left: 42%;
+    background-color: #ffd814;
+    border: none;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.sign-in:hover {
+    background-color: #f7ca00;
 }
 
 /** footer **/
